@@ -20,6 +20,15 @@ public class Main {
 
         Generator g = new Generator("moja wian");
         System.out.print(g);
+
+        Generator g2  = new Generator("twoja wina");
+        System.out.print(g2);
+
+        for (int i = 0; i < 10; i++) {
+            String string = args[i];
+
+        }
+
     
 
     }
