@@ -17,14 +17,16 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        string();
+
+    }
+
+    private static void string() {
         // TODO code application logic here
-
         String[] a = {"a", "b", "c"};
-
         for (String string : a) {
             System.out.print(string);
-            
         }
-        System.out.println("\ntyle");
+
     }
 }
